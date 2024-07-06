@@ -1,0 +1,16 @@
+                               Input Layer
+                                    |
+                              Shared Layer 1
+                                    |
+                              Shared Layer 2
+                                    |
+                               Dense (1) 
+                            (Regression Output)
+                                    |
+                             Concatenate Layer
+                   (Shared Layer + Regression Output)
+                                    |
+                            Additional Shared Layer
+                                    |
+                               Dense (1)
+                           (Classification Output)
